@@ -3,8 +3,6 @@ Description
 Ce projet est une application de gestion de tâches avec une architecture full-stack comprenant un frontend React et un backend Node.js/Express. L'application permet aux utilisateurs de s'inscrire, se connecter, et gérer leurs tâches à travers des opérations CRUD (Create, Read, Update, Delete).
 
 Structure du Projet
-lua
-Copier le code
 API-TO-DO-LIST/
 │
 ├── backend/
@@ -35,6 +33,14 @@ API-TO-DO-LIST/
     │   ├── App.js
     │   ├── index.js
     ├── package.json
+
+
+
+dictionnaire des données 
+https://docs.google.com/spreadsheets/d/1XBnvJKxwJlP1zDe0B1ARIVgoCmgYQhbxZJ5L_fb51bk/edit?gid=0#gid=0
+
+
+    
 Fonctionnalités
 Frontend (React)
 Login.js : Composant pour la page de connexion.
@@ -71,18 +77,16 @@ PostgreSQL
 Installation
 Clonez le dépôt :
 
-sh
-Copier le code
-
 Backend :
 
-sh
+
 Copier le code
 cd API-TO-DO-LIST/backend
 npm install
+
 Frontend :
 
-sh
+
 Copier le code
 cd ../frontend
 npm install
@@ -94,13 +98,13 @@ Frontend : Assurez-vous que les requêtes API pointent vers le bon serveur backe
 Démarrage
 Démarrez le serveur backend :
 
-sh
+
 Copier le code
 cd backend
 npm start
 Démarrez le serveur frontend :
 
-sh
+
 Copier le code
 cd ../frontend
 npm start
